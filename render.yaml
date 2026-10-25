@@ -1,0 +1,9 @@
+﻿# Render 蓝图：应猴传说·高塘爆破战
+services:
+  - type: web
+    name: yinghoyo-game
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /

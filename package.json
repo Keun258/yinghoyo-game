@@ -1,0 +1,19 @@
+{
+  "name": "yinghoyo-3d-party",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "three": "^0.160.1",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "cloudflared": "^0.7.3",
+    "localtunnel": "^2.0.2",
+    "playwright": "^1.64.1",
+    "tunnelmole": "^2.4.0"
+  }
+}
